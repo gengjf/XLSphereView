@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F08EF60C1CB244AF0056F951 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F08EF60B1CB244AF0056F951 /* main.m */; };
+		F08EF60F1CB244AF0056F951 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F08EF60E1CB244AF0056F951 /* AppDelegate.m */; };
+		F08EF6121CB244AF0056F951 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F08EF6111CB244AF0056F951 /* ViewController.m */; };
+		F08EF6151CB244AF0056F951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F08EF6131CB244AF0056F951 /* Main.storyboard */; };
+		F08EF6171CB244AF0056F951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F08EF6161CB244AF0056F951 /* Assets.xcassets */; };
+		F08EF61A1CB244AF0056F951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F08EF6181CB244AF0056F951 /* LaunchScreen.storyboard */; };
+		F08EF6251CB244B00056F951 /* XLSphereViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F08EF6241CB244B00056F951 /* XLSphereViewTests.m */; };
+		F08EF6301CB244B00056F951 /* XLSphereViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F08EF62F1CB244B00056F951 /* XLSphereViewUITests.m */; };
+		F08EF6421CB247390056F951 /* XLSphereView.m in Sources */ = {isa = PBXBuildFile; fileRef = F08EF6411CB247390056F951 /* XLSphereView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F08EF6211CB244B00056F951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F08EF5FF1CB244AF0056F951 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F08EF6061CB244AF0056F951;
+			remoteInfo = XLSphereView;
+		};
+		F08EF62C1CB244B00056F951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F08EF5FF1CB244AF0056F951 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F08EF6061CB244AF0056F951;
+			remoteInfo = XLSphereView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F08EF6071CB244AF0056F951 /* XLSphereView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLSphereView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08EF60B1CB244AF0056F951 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F08EF60D1CB244AF0056F951 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F08EF60E1CB244AF0056F951 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F08EF6101CB244AF0056F951 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F08EF6111CB244AF0056F951 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F08EF6141CB244AF0056F951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F08EF6161CB244AF0056F951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F08EF6191CB244AF0056F951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F08EF61B1CB244AF0056F951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F08EF6201CB244B00056F951 /* XLSphereViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLSphereViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08EF6241CB244B00056F951 /* XLSphereViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLSphereViewTests.m; sourceTree = "<group>"; };
+		F08EF6261CB244B00056F951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F08EF62B1CB244B00056F951 /* XLSphereViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLSphereViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08EF62F1CB244B00056F951 /* XLSphereViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLSphereViewUITests.m; sourceTree = "<group>"; };
+		F08EF6311CB244B00056F951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F08EF63E1CB245870056F951 /* XLMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLMatrix.h; sourceTree = "<group>"; };
+		F08EF63F1CB245D90056F951 /* XLPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPoint.h; sourceTree = "<group>"; };
+		F08EF6401CB247390056F951 /* XLSphereView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSphereView.h; sourceTree = "<group>"; };
+		F08EF6411CB247390056F951 /* XLSphereView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSphereView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F08EF6041CB244AF0056F951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08EF61D1CB244B00056F951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08EF6281CB244B00056F951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F08EF5FE1CB244AF0056F951 = {
+			isa = PBXGroup;
+			children = (
+				F08EF6091CB244AF0056F951 /* XLSphereView */,
+				F08EF6231CB244B00056F951 /* XLSphereViewTests */,
+				F08EF62E1CB244B00056F951 /* XLSphereViewUITests */,
+				F08EF6081CB244AF0056F951 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F08EF6081CB244AF0056F951 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F08EF6071CB244AF0056F951 /* XLSphereView.app */,
+				F08EF6201CB244B00056F951 /* XLSphereViewTests.xctest */,
+				F08EF62B1CB244B00056F951 /* XLSphereViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F08EF6091CB244AF0056F951 /* XLSphereView */ = {
+			isa = PBXGroup;
+			children = (
+				F08EF63D1CB2451E0056F951 /* SphereView */,
+				F08EF60D1CB244AF0056F951 /* AppDelegate.h */,
+				F08EF60E1CB244AF0056F951 /* AppDelegate.m */,
+				F08EF6101CB244AF0056F951 /* ViewController.h */,
+				F08EF6111CB244AF0056F951 /* ViewController.m */,
+				F08EF6131CB244AF0056F951 /* Main.storyboard */,
+				F08EF6161CB244AF0056F951 /* Assets.xcassets */,
+				F08EF6181CB244AF0056F951 /* LaunchScreen.storyboard */,
+				F08EF61B1CB244AF0056F951 /* Info.plist */,
+				F08EF60A1CB244AF0056F951 /* Supporting Files */,
+			);
+			path = XLSphereView;
+			sourceTree = "<group>";
+		};
+		F08EF60A1CB244AF0056F951 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F08EF60B1CB244AF0056F951 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F08EF6231CB244B00056F951 /* XLSphereViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F08EF6241CB244B00056F951 /* XLSphereViewTests.m */,
+				F08EF6261CB244B00056F951 /* Info.plist */,
+			);
+			path = XLSphereViewTests;
+			sourceTree = "<group>";
+		};
+		F08EF62E1CB244B00056F951 /* XLSphereViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F08EF62F1CB244B00056F951 /* XLSphereViewUITests.m */,
+				F08EF6311CB244B00056F951 /* Info.plist */,
+			);
+			path = XLSphereViewUITests;
+			sourceTree = "<group>";
+		};
+		F08EF63D1CB2451E0056F951 /* SphereView */ = {
+			isa = PBXGroup;
+			children = (
+				F08EF63E1CB245870056F951 /* XLMatrix.h */,
+				F08EF63F1CB245D90056F951 /* XLPoint.h */,
+				F08EF6401CB247390056F951 /* XLSphereView.h */,
+				F08EF6411CB247390056F951 /* XLSphereView.m */,
+			);
+			path = SphereView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F08EF6061CB244AF0056F951 /* XLSphereView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F08EF6341CB244B00056F951 /* Build configuration list for PBXNativeTarget "XLSphereView" */;
+			buildPhases = (
+				F08EF6031CB244AF0056F951 /* Sources */,
+				F08EF6041CB244AF0056F951 /* Frameworks */,
+				F08EF6051CB244AF0056F951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLSphereView;
+			productName = XLSphereView;
+			productReference = F08EF6071CB244AF0056F951 /* XLSphereView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F08EF61F1CB244B00056F951 /* XLSphereViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F08EF6371CB244B00056F951 /* Build configuration list for PBXNativeTarget "XLSphereViewTests" */;
+			buildPhases = (
+				F08EF61C1CB244B00056F951 /* Sources */,
+				F08EF61D1CB244B00056F951 /* Frameworks */,
+				F08EF61E1CB244B00056F951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F08EF6221CB244B00056F951 /* PBXTargetDependency */,
+			);
+			name = XLSphereViewTests;
+			productName = XLSphereViewTests;
+			productReference = F08EF6201CB244B00056F951 /* XLSphereViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F08EF62A1CB244B00056F951 /* XLSphereViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F08EF63A1CB244B00056F951 /* Build configuration list for PBXNativeTarget "XLSphereViewUITests" */;
+			buildPhases = (
+				F08EF6271CB244B00056F951 /* Sources */,
+				F08EF6281CB244B00056F951 /* Frameworks */,
+				F08EF6291CB244B00056F951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F08EF62D1CB244B00056F951 /* PBXTargetDependency */,
+			);
+			name = XLSphereViewUITests;
+			productName = XLSphereViewUITests;
+			productReference = F08EF62B1CB244B00056F951 /* XLSphereViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F08EF5FF1CB244AF0056F951 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xiaolong;
+				TargetAttributes = {
+					F08EF6061CB244AF0056F951 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F08EF61F1CB244B00056F951 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F08EF6061CB244AF0056F951;
+					};
+					F08EF62A1CB244B00056F951 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F08EF6061CB244AF0056F951;
+					};
+				};
+			};
+			buildConfigurationList = F08EF6021CB244AF0056F951 /* Build configuration list for PBXProject "XLSphereView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F08EF5FE1CB244AF0056F951;
+			productRefGroup = F08EF6081CB244AF0056F951 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F08EF6061CB244AF0056F951 /* XLSphereView */,
+				F08EF61F1CB244B00056F951 /* XLSphereViewTests */,
+				F08EF62A1CB244B00056F951 /* XLSphereViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F08EF6051CB244AF0056F951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08EF61A1CB244AF0056F951 /* LaunchScreen.storyboard in Resources */,
+				F08EF6171CB244AF0056F951 /* Assets.xcassets in Resources */,
+				F08EF6151CB244AF0056F951 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08EF61E1CB244B00056F951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08EF6291CB244B00056F951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F08EF6031CB244AF0056F951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08EF6121CB244AF0056F951 /* ViewController.m in Sources */,
+				F08EF60F1CB244AF0056F951 /* AppDelegate.m in Sources */,
+				F08EF60C1CB244AF0056F951 /* main.m in Sources */,
+				F08EF6421CB247390056F951 /* XLSphereView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08EF61C1CB244B00056F951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08EF6251CB244B00056F951 /* XLSphereViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08EF6271CB244B00056F951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08EF6301CB244B00056F951 /* XLSphereViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F08EF6221CB244B00056F951 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F08EF6061CB244AF0056F951 /* XLSphereView */;
+			targetProxy = F08EF6211CB244B00056F951 /* PBXContainerItemProxy */;
+		};
+		F08EF62D1CB244B00056F951 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F08EF6061CB244AF0056F951 /* XLSphereView */;
+			targetProxy = F08EF62C1CB244B00056F951 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F08EF6131CB244AF0056F951 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F08EF6141CB244AF0056F951 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F08EF6181CB244AF0056F951 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F08EF6191CB244AF0056F951 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F08EF6321CB244B00056F951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F08EF6331CB244B00056F951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F08EF6351CB244B00056F951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XLSphereView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolong.XLSphereView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F08EF6361CB244B00056F951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XLSphereView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolong.XLSphereView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F08EF6381CB244B00056F951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XLSphereViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolong.XLSphereViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLSphereView.app/XLSphereView";
+			};
+			name = Debug;
+		};
+		F08EF6391CB244B00056F951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XLSphereViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolong.XLSphereViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLSphereView.app/XLSphereView";
+			};
+			name = Release;
+		};
+		F08EF63B1CB244B00056F951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XLSphereViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolong.XLSphereViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XLSphereView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F08EF63C1CB244B00056F951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XLSphereViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolong.XLSphereViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XLSphereView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F08EF6021CB244AF0056F951 /* Build configuration list for PBXProject "XLSphereView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08EF6321CB244B00056F951 /* Debug */,
+				F08EF6331CB244B00056F951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F08EF6341CB244B00056F951 /* Build configuration list for PBXNativeTarget "XLSphereView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08EF6351CB244B00056F951 /* Debug */,
+				F08EF6361CB244B00056F951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F08EF6371CB244B00056F951 /* Build configuration list for PBXNativeTarget "XLSphereViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08EF6381CB244B00056F951 /* Debug */,
+				F08EF6391CB244B00056F951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F08EF63A1CB244B00056F951 /* Build configuration list for PBXNativeTarget "XLSphereViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08EF63B1CB244B00056F951 /* Debug */,
+				F08EF63C1CB244B00056F951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F08EF5FF1CB244AF0056F951 /* Project object */;
+}
